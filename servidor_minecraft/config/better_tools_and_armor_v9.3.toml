@@ -1,0 +1,190 @@
+
+#THIS FILE IS CURRENTLY UNUSED - config functionality may be added to the mod in a future version. For now, here's a sneek peek at some possible settings!
+["Fire Staff"]
+	#Time (in seconds) of fire for the Fire Staff projectile. [Range: 0-100]
+	"Fire Staff fire time" = 10.0
+	#Cooldown time (in seconds) for the Fire Staff. [Range: 0-100]
+	"Fire Staff cooldown time" = 10.0
+
+["Ice Staff"]
+	#Time (in seconds) of freeze for the Ice Staff projectile. [Range: 0-100]
+	"Ice Staff freeze time" = 10.0
+	#Cooldown time (in seconds) for the Ice Staff. [Range: 0-100]
+	"Ice Staff cooldown time" = 10.0
+
+["Electric Staff"]
+	#Cooldown time (in seconds) for the Electric Staff. [Range: 0-100]
+	"Electric Staff cooldown time" = 15.0
+
+[Consumables]
+	#The level of the Speed effect given by eating a Sugar Clump [Range: 0-5]
+	"Sugar Clump Speed effect level" = 1.0
+	#The duration of the Speed effect (in seconds) given by eating a Sugar Clump [Range: 0-59]
+	"Sugar Clump Speed effect time" = 5.0
+	#The level of Speed given by eating a Diamond Apple [Range: 0-10]
+	"Diamond Apple Speed effect level" = 2.0
+	#The duration of Speed (in seconds) given by eating a Diamond Apple [Range: 0-500]
+	"Diamond Apple Speed effect time" = 60.0
+	#The level of Health Boost given by eating a Diamond Apple [Range: 0-10]
+	"Diamond Apple Health Boost effect level" = 5.0
+	#The duration of Health Boost (in seconds) given by eating a Diamond Apple [Range: 0-500]
+	"Diamond Apple Health Boost effect time" = 150.0
+	#The level of Regeneration given by eating a Diamond Apple [Range: 0-10]
+	"Diamond Apple Regeneration effect level" = 3.0
+	#The duration of Regeneration (in seconds) given by eating a Diamond Apple [Range: 0-500]
+	"Diamond Apple Regeneration effect time" = 30.0
+	#The duration of Fire Resistance (in seconds) given by eating a Diamond Apple [Range: 0-500]
+	"Diamond Apple Fire Resistance effect time" = 300.0
+	#The level of Resistance given by eating a Diamond Apple [Range: 0-5]
+	"Diamond Apple Resistance effect level" = 2.0
+	#The duration of Resistance (in seconds) given by eating a Diamond Apple [Range: 0-500]
+	"Diamond Apple Resistance effect time" = 300.0
+	#The level of Strength given by eating a Diamond Apple [Range: 0-10]
+	"Diamond Apple Strength effect level" = 2.0
+	#The duration of Strength (in seconds) given by eating a Diamond Apple [Range: 0-500]
+	"Diamond Apple Strength effect time" = 60.0
+
+["Blue Slime Stick"]
+	#The extra knockback given by a Blue Slime Stick [Range: 0-50]
+	"Blue Slime Stick knockback bonus" = 5.0
+
+["Nether Diamond Tools and Armor"]
+	#The % chance of setting the target on fire when using a Nether Diamond weapon [Range: 0-100]
+	"Nether Diamond weapon fire chance" = 10.0
+	#The duration of fire from a Nether Diamond weapon [Range: 0-100]
+	"Nether Diamond weapon fire time" = 5.0
+	#The % chance (per armor piece worn) of setting the attacker on fire when wearing Nether Diamond armor [Range: 0-100]
+	"Nether Diamond armor fire chance" = 5.0
+	#The duration of fire from Nether Diamond armor [Range: 0-100]
+	"Nether Diamond armor fire time" = 5.0
+	#The multiplier given to fire chance and time when Nether Diamond tools and armor are used in The Nether [Range: 1-10]
+	"Nether Diamond tools and armor Nether multiplier" = 2.0
+	#Whether to play the sound effect when the fire effect activates
+	"Play Fire SFX" = true
+
+["Sapphire Tools and Armor"]
+	#The % chance of freezing the target when using a Sapphire weapon [Range: 0-100]
+	"Sapphire weapon freeze chance" = 10.0
+	#The duration of freeze from a Sapphire weapon [Range: 0-100]
+	"Sapphire weapon freeze time" = 5.0
+	#The % chance (per armor piece worn) of freezing an attacker when wearing Sapphire armor [Range: 0-100]
+	"Sapphire armor freeze chance" = 5.0
+	#The duration of freeze from Sapphire armor [Range: 0-100]
+	"Sapphire armor freeze time" = 5.0
+	#The multiplier given to freeze chance and time when Sapphire tools and armor are used in a cold biome [Range: 1-10]
+	"Sapphire tools and armor cold multiplier" = 2.0
+	#Whether to play the sound effect when the freeze effect activates
+	"Play Freeze SFX" = true
+
+["Topaz Tools and Armor"]
+	#The % chance of summoning lightning when using a Topaz weapon [Range: 0-100]
+	"Topaz weapon lightning chance" = 10.0
+	#The % chance (per armor piece worn) of summoning lightning when wearing Topaz armor [Range: 0-100]
+	"Topaz armor lightning chance" = 5.0
+	#The multiplier given to lightning chance and time when Topaz tools and armor are used in a thunderstorm [Range: 1-10]
+	"Topaz tools and armor thunderstorm multiplier" = 2.0
+	#Whether to play the sound effect when the lightning effect activates
+	"Play Lightning SFX" = true
+
+["Ender Titanium Tools and Armor"]
+	#The damage boost recieved when using an Ender Titanium weapon in The End [Range: 0-20]
+	"Ender Titanium weapon damage boost" = 2.5
+	#Whether the Ender Titanium Pickaxe mines hard blocks quickly
+	"Ender Titanium Pickaxe effect toggle" = true
+	#Whether the Ender Titanium Shovel mines End Stone instantly
+	"Ender Titanium Shovel effect toggle" = true
+	#Whether the Ender Titanium Hoe mines Purpur blocks quickly
+	"Ender Titanium Hoe effect toggle" = true
+	#Whether an Ender Titanium Helmet prevents Endermen from damaging the player
+	"Ender Titanium Helmet effect toggle" = true
+	#Whether an Ender Titanium Chestplate teleports attackers away from the player
+	"Ender Titanium Chestplate effect toggle" = true
+	#Whether wearing Ender Titanium leggings prevents the player from getting the Levitation effect
+	"Ender Titanium Leggings effect toggle" = true
+	#The duration (in seconds) of Slow Falling given by Ender Titanium Boots [Range: 0-100]
+	"Ender Titanium Boots effect time" = 5.0
+	#The durability cost of using the Slow Falling effect with Ender Titanium Boots [Range: 0-50]
+	"Ender Titanium Boots durability cost" = 10.0
+	#The cooldown time (in seconds) of the Slow Falling effect with Ender Titanium Boots
+	"Ender Titanium Boots cooldown time" = 20.0
+
+["Crystallite Tools and Armor - Iron upgrade"]
+	#The extra knockback granted when using a Crystallite weapon with the Heavy upgrade [Range: 0-50]
+	"Heavy Crystallite weapon knockback bonus" = 3.0
+
+["Crystallite Tools and Armor - Gold upgrade"]
+	#The level of Sweeping Edge which is automatically given to a Crystallite weapon with the Gilded upgrade [Range: 0-10]
+	"Crystallite Gilded weapon Sweeping Edge level" = 4.0
+	#The reach bonus given when holding a Crystallite tool with the Gilded upgrade [Range: 0-10]
+	"Crystallite Gilded tool extra reach" = 3.0
+	#The reach bonus given (per armor piece worn) when wearing Crystallite armor with the Gilded upgrade [Range: 0-5]
+	"Crystallite Gilded armor extra reach" = 1.0
+
+["Crystallite Tools and Armor - Lapis Lazuli upgrade"]
+	#The multiplier given to XP when using a Crystallite tool or weapon with the Magic upgrade [Range: 1-5]
+	"Crystallite Magic tool XP multiplier" = 2.0
+	#The minimum XP reward for mining an ore with a Crystallite Pickaxe which has the Magic upgrade [Range: 0-50]
+	"Crystallite Magic Pickaxe" = 5.0
+	#The % (per armor piece worn) of the player's XP level kept upon death when wearing Crystallite armor with the Magic upgrade [Range: 0-100]
+	"Crystallite Magic armor XP kept on death" = 20.0
+
+["Crystallite Tools and Armor - Redstone upgrade"]
+	#The amount of HP healed when killing a mob with a Crystallite weapon which has the Leech upgrade [Range: 0-10]
+	"Crystallite Leech weapon heal per kill" = 1.0
+	#The amount of extra health (per armor piece worn) given when wearing Crystallite armor with the Hearty upgrade
+	"Crystallite Hearty armor extra HP" = 2.0
+
+["Crystallite Tools and Armor - Nether Diamond upgrade"]
+	#The damage dealt to attackers (per armor piece worn) when wearing Crystallite armor with the Spiky upgrade [Range: 0-10]
+	"Crystallite Spiky armor thorns damage" = 2.0
+	#Cooldown time for the wither-removing ability on the Crystallite Shovel with the Netherite upgrade [Range: 0-20]
+	"Crystallite Netherite Shovel cooldown time" = 5.0
+	#The duration of fire from a Crystallite weapon with the Flaming upgrade [Range: 0-100]
+	"Crystallite Flaming weapon fire time" = 5.0
+	#The % chance (per armor piece worn) of setting the attacker on fire when wearing Crystallite armor with the Flaming upgrade [Range: 0-100]
+	"Crystallite Flaming armor fire chance" = 10.0
+	#The duration of fire when wearing Crystallite armor with the Flaming upgrade [Range: 0-100]
+	"Crystallite Flaming armor fire time" = 10.0
+	#Cooldown time for the fire extinguishing ability on Crystallite tools with the Fireproof upgrade [Range: 0-20]
+	"Crystallite Fireproof tools cooldown time" = 5.0
+
+["Crystallite Tools and Armor - Ruby upgrade"]
+	#The speed boost given (per armor piece worn) when wearing Crystallite armor with the Speedy upgrade [Range: 0-2]
+	"Crystallite Speedy armor speed boost" = 0.5
+
+["Crystallite Tools and Armor - Sapphire upgrade"]
+	#The % chance of freezing the target when using a Crystallite weapon with the Freezing upgrade [Range: 0-100]
+	"Crystallite Freezing weapon freeze chance" = 20.0
+	#The duration of freeze from a Crystallite weapon with the Freezing upgrade [Range: 0-100]
+	"Crystallite Freezing weapon freeze time" = 10.0
+	#The % chance (per armor piece worn) of freezing an attacker when wearing Crystallite armor with the Freezing upgrade [Range: 0-100]
+	"Crystallite Freezing armor freeze chance" = 10.0
+	#The duration of freeze from Crystallite armor with the Freezing upgrade [Range: 0-100]
+	"Crystallite Freezing armor freeze time" = 0.0
+
+["Crystallite Tools and Armor - Topaz upgrade"]
+	#The % chance of summoning lightning when using a Crystallite weapon with the Shocking upgrade [Range: 0-100]
+	"Crystallite Shocking weapon lightning chance" = 20.0
+	#The chance for bonus drops when mining an ore using a Crystallite Pickaxe with the Charged upgrade [Range: 0-100]
+	"Crystallite Charged Pickaxe bonus drops chance" = 10.0
+	#The % chance (per armor piece worn) of summoning lightning when wearing Crystallite armor with the Shocking upgrade [Range: 0-100]
+	"Crystallite Shocking armor lightning chance" = 10.0
+
+[Enchantments]
+	#The amount of extra XP (per level) dropped when using a weapon enchanted with Experienced [Range: 0-30]
+	"Experienced bonus XP per level" = 5.0
+	#The % chance (per level) of summoning lightning when using a bow enchanted with Thunder Shot [Range: 0-100]
+	"Thunder Shot lightning chance per level" = 10.0
+	#The chance of freezing the target when using a bow enchanted with Freeze Shot [Range: 0-100]
+	"Freeze Shot freeze chance per level" = 10.0
+	#Life Aura's effect activates when the player's current HP is greater than (not equal to) this percentage of their maximum HP [Range: 50-100]
+	"Life Aura HP threshold" = 90.0
+	#The damage boost recieved when Life Aura is active [Range: 0-10]
+	"Life Aura damage boost" = 2.0
+	#Desperation's effect activates when the player's current HP is less than (not equal to) this percentage of their maximum HP [Range: 0-50]
+	"Desperation HP threshold" = 25.0
+	#The damage boost recieved when Desperation is active [Range: 0-10]
+	"Desperation damage boost" = 4.0
+	#If true, Smelting Touch smelts the drops of ALL blocks (not just ores) - NOT intended for survival mode
+	"Smelting touch works on all blocks" = false
+

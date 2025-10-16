@@ -1,0 +1,29 @@
+[16Oct2025 00:02:48.979] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [abeldh: Set the time to 1000]
+[16Oct2025 00:13:51.220] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [abeldh: The difficulty has been set to Peaceful]
+[16Oct2025 00:18:54.345] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager VillagerEntityMCA['Miloš'/60518, l='ServerLevel[world]', x=-3524.40, y=111.00, z=-1706.17] died, message: 'Miloš was slain by abeldh'
+[16Oct2025 00:19:47.654] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: abeldh has made the advancement [Glass Ghost]
+[16Oct2025 00:23:39.452] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: kila lost connection: Disconnected
+[16Oct2025 00:23:39.452] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: kila left the game
+[16Oct2025 00:23:44.200] [Server thread/INFO] [TransportSimulationCore/]: Removing player ec8b33dc-38ff-3963-9ab1-0eb180d3c9f2
+[16Oct2025 00:23:44.552] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: abeldh lost connection: Disconnected
+[16Oct2025 00:23:44.552] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: abeldh left the game
+[16Oct2025 00:23:48.550] [Server thread/INFO] [TransportSimulationCore/]: Removing player 89034453-8816-3db5-9097-81f79b656603
+[16Oct2025 00:23:54.000] [Server thread/INFO] [TransportSimulationCore/]: Stopping...
+[16Oct2025 00:23:54.006] [Server thread/INFO] [org.mtr.libraries.org.eclipse.jetty.server.AbstractConnector/]: Stopped ServerConnector@3d7c369a{HTTP/1.1, (http/1.1)}{0.0.0.0:8888}
+[16Oct2025 00:23:54.008] [Server thread/INFO] [org.mtr.libraries.org.eclipse.jetty.server.handler.ContextHandler/]: Stopped o.m.l.o.e.j.s.ServletContextHandler@2cc6702f{/,null,STOPPED}
+[16Oct2025 00:23:54.012] [Server thread/INFO] [TransportSimulationCore/]: Starting full save...
+[16Oct2025 00:23:54.013] [Server thread/INFO] [TransportSimulationCore/]: - Changed sidings: 1
+[16Oct2025 00:23:54.015] [Server thread/INFO] [TransportSimulationCore/]: - Changed depots: 1
+[16Oct2025 00:23:54.015] [Server thread/INFO] [TransportSimulationCore/]: Save complete for minecraft/overworld in 0.002 second(s)
+[16Oct2025 00:23:54.015] [Server thread/INFO] [TransportSimulationCore/]: - Changed settings: 1
+[16Oct2025 00:23:54.016] [Server thread/INFO] [TransportSimulationCore/]: Save complete for twilightforest/twilight_forest in 0.001 second(s)
+[16Oct2025 00:23:54.016] [Server thread/INFO] [TransportSimulationCore/]: - Changed settings: 1
+[16Oct2025 00:23:54.016] [Server thread/INFO] [TransportSimulationCore/]: Stopped
+[16Oct2025 00:23:54.016] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[16Oct2025 00:23:54.016] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[16Oct2025 00:23:54.017] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[16Oct2025 00:23:54.758] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[16Oct2025 00:23:54.922] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/twilightforest:twilight_forest
+[16Oct2025 00:23:54.975] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16Oct2025 00:23:54.975] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (twilight_forest): All chunks are saved
+[16Oct2025 00:23:54.975] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
